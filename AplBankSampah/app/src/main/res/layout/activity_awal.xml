@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".awal"
+    android:background="@color/hijau">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logoku"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+
+    <EditText
+        android:id="@+id/hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="   No.Hp/Telephone"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/rec1"
+        android:backgroundTint="@color/grey"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="   Password"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rec1"
+        android:backgroundTint="@color/grey"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/hp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonMasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rec1"
+        android:text="Masuk"
+        android:textSize="20dp"
+        android:backgroundTint="@color/hiya"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonDaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rec1"
+        android:text="Daftar"
+        android:textSize="20dp"
+        android:backgroundTint="@color/hiya"
+        android:layout_below="@+id/buttonMasuk"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

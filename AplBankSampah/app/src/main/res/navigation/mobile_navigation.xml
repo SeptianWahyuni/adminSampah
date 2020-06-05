@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.aplbanksampah.ui.main.MenuHomeFragment"
+        android:label="@string/menu1"
+        tools:layout="@layout/menuhome_fragment" />
+
+    <fragment
+        android:id="@+id/nav_pickup"
+        android:name="com.example.aplbanksampah.ui.menupickup.MenuPickupFragment"
+        android:label="@string/menu2"
+        tools:layout="@layout/activity_pickup" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.aplbanksampah.ui.history.HistoryFragment"
+        android:label="@string/menu3"
+        tools:layout="@layout/history_fragment" />
+
+    <fragment
+        android:id="@+id/nav_layanan"
+        android:name="com.example.aplbanksampah.ui.layanan.LayananFragment"
+        android:label="@string/menu4"
+        tools:layout="@layout/layanan_fragment" />
+
+    <fragment
+        android:id="@+id/nav_akun"
+        android:name="com.example.aplbanksampah.ui.akun.AkunFragment"
+        android:label="@string/menu5"
+        tools:layout="@layout/activity_profil" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.aplbanksampah.ui.logout.LogoutFragment"
+        android:label="@string/menu6"
+        tools:layout="@layout/logout_fragment" />
+</navigation>

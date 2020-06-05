@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pickup"
+    android:background="@color/hijau">
+    <LinearLayout
+        android:id="@+id/tulisan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="94dp"
+            android:layout_height="91dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            app:srcCompat="@drawable/logoku" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PICKUP SAMPAH"
+            android:textColor="@color/hitam"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Nama"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rec1"
+        android:backgroundTint="@color/grey"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/tulisan"
+        android:layout_centerHorizontal="true"></EditText>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint=" Alamat"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rec1"
+        android:backgroundTint="@color/grey"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/nama"
+        android:layout_centerHorizontal="true"></EditText>
+
+    <Button
+        android:id="@+id/buttonKirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirim"
+        android:textSize="20dp"
+        android:background="@drawable/rec1"
+        android:backgroundTint="@color/hiya"
+        android:layout_below="@+id/alamat"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
